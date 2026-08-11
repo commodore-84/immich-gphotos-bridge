@@ -42,5 +42,5 @@ The authorizing user can revoke this app's access at any time via
 ## Contact
 
 Questions about this app or this policy: open an issue on the
-[GitHub repository](https://github.com/yourusername/your-repo-name)
-or contact [your-email@example.com].
+[GitHub repository](https://github.com/commodore-84/immich-gphotos-bridge)
+or contact [charles@delroyhome.co.uk].
