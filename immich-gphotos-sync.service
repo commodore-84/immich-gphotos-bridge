@@ -1,0 +1,10 @@
+[Unit]
+Description=Sync new Immich album assets to Google Photos
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/scripts/immich2google
+EnvironmentFile=/root/scripts/immich2google/.env
+ExecStart=/root/scripts/immich2google/venv/bin/python3 /root/scripts/immich2google/sync_immich_to_gphotos.py

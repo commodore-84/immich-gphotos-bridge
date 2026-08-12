@@ -1,0 +1,10 @@
+# Secrets -- never commit these
+auth_state.json
+client_secret.json
+.env
+synced_assets.json
+
+# Python
+venv/
+__pycache__/
+*.pyc

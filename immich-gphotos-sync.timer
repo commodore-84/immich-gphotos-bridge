@@ -1,0 +1,8 @@
+[Unit]
+Description=Nightly Immich -> Google Photos sync
+
+[Timer]
+OnCalendar=*-*-* 03:00:00
+
+[Install]
+WantedBy=timers.target
